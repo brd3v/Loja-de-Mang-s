@@ -70,6 +70,56 @@ section .container div p{
     max-height: 70px;
     border-radius: 30px;
 }
+section .contato{
+    display: flex;
+    width: 100%;
+}
+section .contato div{
+    width: 100%;
+}
+
+section .contato div form{
+  
+    height: 500px;
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+  
 
 
+}
+section .contato div form input, textarea, button{
+    width: 100%;
+    margin-bottom: 8px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
 
+    background-color: rgb(248, 201, 114);
+}
+
+button:hover{
+    background-color: rgb(220, 220, 244);
+    cursor: pointer;
+}
+textarea{
+    height: 200px;
+    resize: none;
+}
+
+.social {
+    width: 100%;
+}
+
+.social img {
+    height: 40px;
+    
+    margin: 10px;
+    cursor: pointer;
+}
+footer{
+    padding: 28px;
+    background-color: rgb(231, 173, 67);
+    color: rgb(220, 220, 244);
+}
